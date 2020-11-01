@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+        <style>
+            header{
+                background-image: url(see.jpg);
+                background-size: cover;
+                background-position: center;
+                /* min-height: 1000px; */
+                height: 400px;
+            }
+            @media screen and (max-width: 670px) {
+                header{
+                    min-height: 500px;
+                }
+            }
+
+            #try{
+                margin-top: 2rem;
+                padding-left: 30px;
+            }
+        </style>
+   
+</head>
+<body>
+   <header>
+       <div class="navbar-fixed ">
+        <nav class="nav-wrapper black transparent">
+            <div class="container">
+                <a href="#" class="brand-logo">Project</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="black-text text-darken-4" href="#">Landing Page</a> </li>
+                    <li><a class="black-text text-darken-4" href="#cards">Media</a> </li>
+                    <li><a class="black-text text-darken-4" href="#para">Parallax</a> </li>
+                    <li><a class="black-text text-darken-4" href="#foot">Footer</a> </li>
+                    
+                </ul>
+            </div>
+            
+        </nav>
+    </div>
+    </header> <br/>
+    
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Landing Page</a> </li>
+        <li><a href="#">Media</a> </li>
+        <li><a href="#">Parallax</a> </li>
+        <li><a href="#">Footer</a> </li>
+    </ul>
+
+
+    
+
+
+<!--cards-->
+<section id="cards" class="section scrollspy"> 
+    <div class="container">
+        <div class="center-align"><h2>Video Cards</h2></div> <hr> <br/>
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="video-container">
+                        <iframe src="Introducing Flutter.mp4" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-content  #01579b light-blue darken-4">
+                        <span class="card-title white-text">Media </span>
+                        <p class="white-text">It is all about us</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="video-container">
+                        <iframe src="making Material Design.mp4" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-content  #01579b light-blue darken-4">
+                        <span class="card-title white-text">The Talk</span>
+                        <p class="white-text">Self discovery is key </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="video-container">
+                        <iframe src="Material_Design.mp4" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-content #01579b light-blue darken-4">
+                        <span class="card-title white-text">Contact Us </span>
+                        <p class="white-text">We are at your Service </p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</section>
+
+<!--card end-->
+
+<!--parallax-->
+<section id="para" class="section scrollspy">
+    <div class="parallax-container" >
+        <div class="parallax">
+            <img src="see.jpg" class="responsive-img"/>
+    </div> <br/>
+</section>
+
+<!--parallax end-->
+
+<!--grid-->
+<section id="grid"class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l6 left-align">
+                <h2> Project </h2>
+                <P>Grid is use to divide a page into major regions or defining the relationship in terms of size, between parts of a control built from HTML primitives.</P>
+                <p>a project is a series of tasks that need to be completed in order to reach a specific outcome. A project can also be defined as a set of inputs and outputs required to achieve a particular goal. Projects can range from simple to complex and can be managed by one person or a hundred</p>
+                <a class="waves-effect waves-light btn  #01579b light-blue darken-4">Know More</a>
+            </div>
+                
+            <div class=" container col s12 m6 l6">
+            <img id="try" src="tt.jpg" width="500px">
+            
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--grid end-->
+
+<!--footer-->
+<section id="foot" class="section scrollspy">
+    <footer class="page-footer #01579b light-blue darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s6 m6 l6">
+                    <h5 class="white-text">Summary</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <p class="grey-text text-lighten-4">we discover ideas, understand the concept, and take these ideas to an extraordinary edge, where this ideas provide beautiful outcome, which is truly unexpected and beneficial in all the ways to our clients.</p>
+
+                </div>
+                <div class="col l4 offset-l2  m6 s12">
+                    <h5 class="white-text">About us</h5>
+                    <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Services</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Summary</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!"></a></li> <br/>
+                    <div class="">
+                        <!-- <li><a class="waves-red waves-light btn social dropbox"><i class="fa fa-google"></i></a></li> -->
+                        <button class="btn btn-small facebook waves-light #01579b light-blue darken-4" data-provider="facebook"><i class="fab fa-facebook-f"></i></button>
+                        <button class="btn btn-small twitter #81d4fa light-blue lighten-3" data-provider="twitter"><i class="fab fa-twitter"></i></button>
+                        <!-- <button class="btn google #d84315 deep-orange darken-3" data-provider="google"><i class="fab fa-google"></i></button> -->
+                        <button class="btn btn-small instagram #ff4081 pink accent-2" data-provider="instagram"><i class="fab fa-instagram"></i></button>
+                        <button class="btn btn-small linkedin #2196f3 blue" data-provider="linkedin"><i class="fab fa-linkedin"></i></button> <br/>         
+                    </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+            <div class="footer-copyright  black">
+                <p class="grey-text text-lighten-4 container center-align"> © 2020 designed by Green </p>
+            </div>
+    </footer>
+</section>
+<!--footer end-->
+
+    <!--scripting-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- <script src="materialize/js/jquery.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        var elem = document.querySelector('.sidenav');
+  var instance = new M.Sidenav(elem, {});
+
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, {});
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems, options);
+  });  
+    </script>
+</body>
+</html>
