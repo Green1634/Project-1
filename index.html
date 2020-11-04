@@ -11,7 +11,7 @@
     <script src="/materialize/js/jquery.js"></script>
         <style>
             header{
-                background-image: url(see.jpg);
+                background-image: url(parallax1.jpg);
                 background-size: cover;
                 background-position: center;
                 height: 400px;
@@ -27,6 +27,12 @@
                 padding-left: 30px;
             }
 
+            @media only screen and (max-device-width: 1366px) {
+   {
+    background-attachment: scroll;
+  }
+}
+
 
         </style>
    
@@ -34,15 +40,15 @@
 <body>
    <header>
     <div class="navbar-fixed ">
-    <nav class="nav-wrapper black transparent">
+    <nav class="nav-wrapper black">
         <div class="container">
-                <a href="#" class="brand-logo">Project</a>
+                <a href="#" class="brand-logo s12">MAT_<span class="red-text">DESIGN</span></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a class="black-text text-darken-4" href="#">Landing Page</a> </li>
-                    <li><a class="black-text text-darken-4" href="#cards">Media</a> </li>
-                    <li><a class="black-text text-darken-4" href="#para">Parallax</a> </li>
-                    <li><a class="black-text text-darken-4" href="#foot">Footer</a> </li>
+                    <li><a class="white-text text-darken-4" href="#">Landing Page</a> </li>
+                    <li><a class="white-text text-darken-4" href="#cards">Media</a> </li>
+                    <li><a class="white-text text-darken-4" href="#para">Parallax</a> </li>
+                    <li><a class="white-text text-darken-4" href="#foot">Footer</a> </li>
                     
                 </ul>
         </div>
@@ -65,7 +71,7 @@
 <!--cards-->
     <section id="cards" class="section scrollspy"> 
         <div class="container">
-            <div class="center-align"><h2>Video Cards</h2></div> <hr> <br/>
+            <div class="center-align"><h2>Material <span class="red-text">Design</span></h2></div> <hr> <br/>
             <div class="row">
                 <div class="col s12 m4 l4">
                     <div class="card">
@@ -112,9 +118,9 @@
 
     <!--parallax-->
     <section id="para" class="section scrollspy">
-        <div class="parallax-container" >
+        <div class="parallax-container" id="paral" >
             <div class="parallax">
-                <img src="see.jpg" class="responsive-img"/>
+                <img src="header.jpg" class="responsive-img"/>
         </div> <br/>
     </section>
 
@@ -125,14 +131,14 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 m6 l6 left-align">
-                    <h2> Project </h2>
+                    <h2> Material <span class="red-text">Design</span> </h2>
                     <P>Grid is use to divide a page into major regions or defining the relationship in terms of size, between parts of a control built from HTML primitives.</P>
                     <p>a project is a series of tasks that need to be completed in order to reach a specific outcome. A project can also be defined as a set of inputs and outputs required to achieve a particular goal. Projects can range from simple to complex and can be managed by one person or a hundred</p>
                     <a class="waves-effect waves-light btn  #01579b light-blue darken-4">Know More</a>
                 </div>
                     
                 <div class=" container col s12 m6 l6">
-                <img id="try" src="tt.jpg" width="100%" >
+                <img id="try" src="side.jpg" width="100%" >
                 
                 </div>
             </div>
@@ -182,7 +188,7 @@
         <!--scripting-->
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <!-- <script src="materialize/js/jquery.js"></script> -->
+        <script src="materialize/js/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
         <script>
